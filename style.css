@@ -1,0 +1,155 @@
+/* elements css */
+* {
+    scrollbar-color: #ff0b69 #fff;
+    scrollbar-width: thin !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #fa126f;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a.hover {
+    color: #458bf5;
+}
+
+.img-abs {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+.circle {
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+/* text css */
+.text-pink {
+    color: #f70d76;
+}
+
+.bg-pink {
+    background-color: #f70d76;
+}
+
+.border-pink {
+    border-bottom: 2px solid #f70d76;
+
+
+}
+
+.text-voilet {
+    color: blueviolet;
+}
+
+.border-voilet {
+    border-bottom: 2px solid blueviolet;
+
+}
+
+
+.l-height-1 {
+    line-height: 1.5;
+}
+
+.l-height-2 {
+    line-height: 2;
+}
+
+.l-height-3 {
+    line-height: 2.5;
+}
+
+
+/* text gradient  */
+.text-gradient {
+
+    background: -webkit-linear-gradient(45deg, #458bf5 45%, #03da80 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/* btn css */
+.btn-pink {
+    border: 1px solid #f70d76;
+    background-color: transparent;
+}
+
+/* height width margin padding css  */
+.h-90 {
+    height: 90%;
+}
+
+/* container css */
+.head-cover {
+    height: 90vh;
+    background-image: url('https://cooperparry.com/wp-content/themes/Cooperparry/img/home-v2/banner_gradient.png'), url("https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img/https://cooperparry.com/wp-content/uploads/2022/03/home_banner.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.award {
+    height: 100vh;
+    background-image: url('https://cooperparry.com/wp-content/uploads/2022/03/award_bg_a.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(217, 217, 217);
+}
+
+
+
+.element {
+    height: 500px;
+    background: linear-gradient(90deg, rgba(79, 133, 227, 1) 0%, rgba(205, 70, 136, 1) 100%);
+
+
+    clip-path: ellipse(83% 70% at 83% 100%);
+}
+
+.main-footer {
+    background-image: url('https://cooperparry.com/wp-content/themes/Cooperparry/img/home-v2/footer_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:767px) {
+    .img-abs {
+        position: static;
+        width: 100%;
+        left: auto;
+    }
+}
